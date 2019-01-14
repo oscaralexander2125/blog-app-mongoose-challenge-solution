@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: qz/85DhZO1WRLoYso+R/zWbpwD9ALYMADtTX0n+L9NhUNDhCSf8HuLMP7CLvXG2zQOf4jJz3vcP2G2QUN4I/vscWudkAAzDBzdk/s/oNX71mbrncOMfsObCRb7M6yrXwI+evd6IpYoo73CTodzUSv0EoF4Enx/Yx+pXhc4em4NxrZuvw0He3NFPVvcxO7SOSFvVoPZmwDsZNqcxQdL7Xvhhy7m896LoSQDiBMhR+xUl+fUeqzFx6I4njiABZSPiNoN1CXKtm9IgKjJg7UsNQycjFjo8X/BaVCUY1YN7Ly3eUCn4tBryBtyyHTYTbvCCqyr8dPwd0EPk3ZzpvDtSNUkPgJrmH+AyJtEPl0eWAftGi4eGNsfr07JrqWC5fery4/buNAbDHW/Lfc+WreScPd4pbGw8sDH88z17fQol+OR9cxDdShiwxpH2wVM0gDEUtNvHZ3tiT/2keOu2mkdC3pPyE4ZkWXP6nkzTYXsmc8bStgXY0zC2D6iO/C7fON7DMGitZqCERLKy7YUyft/mllMrakWCJCUp6Sldf6jkRSmvjrby74hN7WYpSHuFWENqQ66QU+EPv9Y0ncpgQ6sgM41HE6dLH7NhfsTyTtSFkkadB71JoCuQTvNuXbK8HyxTpLOSsmPMRmUy/Jx6XEDwv76QQI/88q/A9z/6e9lPWiAk=
+  app: https://intense-fjord-69772.herokuapp.com/
+  on:
+    repo: oscaralexander2125/blog-app-mongoose-challenge-solution
