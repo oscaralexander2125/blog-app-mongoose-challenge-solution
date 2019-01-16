@@ -1,4 +1,5 @@
 'use strict';
+console.log(module.exports);
 
 const express = require('express');
 const morgan = require('morgan');
